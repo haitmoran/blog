@@ -18,16 +18,10 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </p>
           <p>
-            <a href="#wgpt3">What is GPT3?</a>
+            <a href="#learn">Learn</a>
           </p>
           <p>
-            <a href="#possibility">Open AI</a>
-          </p>
-          <p>
-            <a href="#features">Case Studies</a>
-          </p>
-          <p>
-            <a href="#blog">Library</a>
+            <a href="#about_us">About Us</a>
           </p>
         </div>
       </div>

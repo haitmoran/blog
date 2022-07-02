@@ -36,9 +36,9 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 800;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
@@ -51,7 +51,7 @@
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #FF4820;
+    background: #C0C0C0;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -131,4 +131,8 @@
     .gpt3__navbar-menu_container-links-sign {
         display: block;
     }
+}
+
+.fa-brands {
+    --fa-pull-margin: 2em;
 }
