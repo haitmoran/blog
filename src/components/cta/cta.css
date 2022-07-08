@@ -15,7 +15,7 @@
     flex-direction: column;
 
     text-align: left;
-    color: #fff;
+    color: var(--color-main-light);
 }
 
 .gpt3__cta-content p {

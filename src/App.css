@@ -6,7 +6,7 @@
 }
 
 body {
-  background: var(--color-bg);
+  background: #292929
 }
 
 a {
@@ -15,13 +15,12 @@ a {
 }
 
 .gradient__bg {
-  background-color: #ffffff;
-background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  background: var(--gradient-main-light)
 }
 
 .gradient__text {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  background-color: var(--color-main-dark);
+  background-image: var(--gradient-main-dark);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

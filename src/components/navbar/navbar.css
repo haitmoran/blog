@@ -51,8 +51,8 @@
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background-color: #000000;
-background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-color: var(--color-main-dark);
+    background-image: var(--gradient-main-dark);
 
 
 
