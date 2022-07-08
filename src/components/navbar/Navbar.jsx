@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
+import { GoMarkGithub } from 'react-icons/go';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -9,9 +10,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="contact_icons">
-          <i className="fa-brands fa-github" />
-          <i className="fa-brands fa-linkedin" />
-          <i className="fa-solid fa-envelope" />
+          <GoMarkGithub />
         </div>
         <div className="gpt3__navbar-links_container">
           <p>
@@ -27,7 +26,7 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-sign">
         <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <button type="button">Sign Up</button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (

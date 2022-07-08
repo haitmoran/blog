@@ -51,7 +51,11 @@
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #C0C0C0;
+    background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+
+
+
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -135,4 +139,8 @@
 
 .fa-brands {
     --fa-pull-margin: 2em;
+}
+
+.fa-brands fa-github {
+    color: rgb(255, 255, 255);
 }
